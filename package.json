@@ -1,5 +1,5 @@
 {
-  "name": "area-plugin",
+  "name": "ai-graph-area-plugin",
   "version": "0.0.1",
   "description": "",
   "main": "build/area-plugin.min.js",
