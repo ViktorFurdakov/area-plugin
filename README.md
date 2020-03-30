@@ -1,3 +1,3 @@
-Rete area plugin
+ai-graph area plugin
 ====
-#### Rete.js plugin
+ai-graph area plugin
