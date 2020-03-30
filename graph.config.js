@@ -1,4 +1,3 @@
-
 import sass from 'rollup-plugin-sass';
 
 export default {
@@ -6,7 +5,7 @@ export default {
     name: 'AreaPlugin',
     plugins: [
         sass({
-            insert: true
-        })
-    ]
+            insert: true,
+        }),
+    ],
 }

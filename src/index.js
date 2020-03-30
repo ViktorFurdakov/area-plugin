@@ -1,4 +1,4 @@
-import './style.sass';
+import './style.scss';
 import { Background } from './background';
 import { Restrictor } from './restrictor';
 import { SnapGrid } from './snap';

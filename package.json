@@ -5,8 +5,8 @@
   "main": "build/area-plugin.min.js",
   "module": "build/area-plugin.esm.js",
   "scripts": {
-    "build": "graph --build rete.config.js",
-    "build:dev": "graph --build rete.config.js --watch",
+    "build": "rete --build graph.config.js",
+    "build:dev": "rete --build graph.config.js --watch",
     "prepublishOnly": "npm run build"
   },
   "author": "Viktor Furdakov",
