@@ -5,26 +5,26 @@ $grid-color: #1e1e1e;
 $dark-color: #2b2b2b;
 
 @function line($dir, $t, $w, $color) {
-  $start: $size * $t - $w * $size;
-  $end: $size * $t + $w * $size;
-  @return linear-gradient(to $dir, transparent $start, $color $start, $color $end, transparent $end);
-  }
+    $start: $size * $t - $w * $size;
+    $end: $size * $t + $w * $size;
+    @return linear-gradient(to $dir, transparent $start, $color $start, $color $end, transparent $end);
+}
 
 .rete-background {
-  display: table;
-  z-index: -1;
-  position: absolute;
-  top: -$area;
-  left: -$area;
-  width: 2 * $area;
-  height: 2 * $area;
+    display: table;
+    z-index: -1;
+    position: absolute;
+    top: -$area;
+    left: -$area;
+    width: 2 * $area;
+    height: 2 * $area;
 
-  &.default {
-    display: block;
-    z-index: -2;
-    background-size: $size $size;
-    background-image: line(right, 0, $th * 7, $dark-color), line(bottom, 0, $th * 7, $dark-color);
-    background-color: $grid-color;
-    box-sizing: border-box;
-  }
+    &.default {
+        display: block;
+        z-index: -2;
+        background-size: $size $size;
+        background-image: line(right, 0, $th * 7, $dark-color), line(bottom, 0, $th * 7, $dark-color);
+        background-color: $grid-color;
+        box-sizing: border-box;
+    }
 }
