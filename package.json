@@ -1,0 +1,22 @@
+{
+  "name": "area-plugin",
+  "version": "0.0.1",
+  "description": "",
+  "main": "build/area-plugin.min.js",
+  "module": "build/area-plugin.esm.js",
+  "scripts": {
+    "build": "graph --build rete.config.js",
+    "build:dev": "graph --build rete.config.js --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "Viktor Furdakov",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://https://github.com/ViktorFurdakov/area-plugin.git"
+  },
+  "devDependencies": {
+    "rete-cli": "^0.4.2",
+    "rollup-plugin-sass": "^0.9.2"
+  }
+}
