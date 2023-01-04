@@ -16,7 +16,7 @@
     "url": "https://https://github.com/ViktorFurdakov/area-plugin.git"
   },
   "devDependencies": {
-    "rete-cli": "^0.4.2",
+    "rete-cli": "^0.6.1",
     "rollup-plugin-sass": "^0.9.2"
   }
 }
